@@ -3,7 +3,7 @@
 
 [![Status](https://travis-ci.org/jmhdevelop/DecodeJSON.svg?branch=master)](https://travis-ci.org/jmhdevelop/DecodeJSON)
 [![Version](https://img.shields.io/cocoapods/v/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
-[![License](https://img.shields.io/cocoapods/l/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
+[![License](https://camo.githubusercontent.com/eb5485388cd282c0139df4ed308b825420589a7c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6861636b696674656b6861722f49514b6579626f6172644d616e616765722e737667)](https://cocoapods.org/pods/DecodeJSON)
 [![Platform](https://img.shields.io/cocoapods/p/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
 [![codebeat badge](https://codebeat.co/badges/2ab88036-c232-48c0-ade8-10f26b6b049a)](https://codebeat.co/projects/github-com-jmhdevelop-decodejson-master)
 
