@@ -1,7 +1,8 @@
 # DecodeJSON
 
 
-[![CI Status](https://img.shields.io/travis/jmhdevep/DecodeJSON.svg?style=flat)](https://travis-ci.org/jmhdevelop/DecodeJSON.svg?branch=master)
+[![Status](https://travis-ci.org/jmhdevelop/DecodeJSON.svg?branch=master)](https://travis-ci.org/jmhdevelop/DecodeJSON
+)
 [![Version](https://img.shields.io/cocoapods/v/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
 [![License](https://img.shields.io/cocoapods/l/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
 [![Platform](https://img.shields.io/cocoapods/p/DecodeJSON.svg?style=flat)](https://cocoapods.org/pods/DecodeJSON)
