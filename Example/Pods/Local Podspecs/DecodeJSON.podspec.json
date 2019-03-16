@@ -2,7 +2,7 @@
   "name": "DecodeJSON",
   "version": "0.1.0",
   "summary": "Simple way to decode a JSON",
-  "homepage": "https://github.com/jmhdevep/DecodeJSON",
+  "homepage": "https://github.com/jmhdevelop/DecodeJSON",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -15,7 +15,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.3"
   },
+  "swift_version": "4.2",
   "source_files": "DecodeJSON/Classes/**/*"
 }

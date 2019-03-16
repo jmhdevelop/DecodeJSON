@@ -20,6 +20,53 @@ it, simply add the following line to your Podfile:
 pod 'DecodeJSON'
 ```
 
+## Usage
+
+First you need to create a struct for the response.
+```swift
+struct BookResponse: Codable {
+    let ID: Int
+    let Title: String
+    let Description: String
+    let PageCount: Int
+}
+```
+
+Also you can created the struct with coding keys to assigning your own names.
+
+```swift
+struct BookResponse: Codable {
+    let id: Int
+    let title: String
+    let description: String
+    let numberOfPages: Int
+
+    enum CodingKeys : String, CodingKey {
+        case id = "ID"
+        case title = "Title"
+        case description = "Description"
+        case numberOfPages = "PageCount"
+    }
+}
+```
+
+
+To decode a JSON in a request you need can do it like in this example.
+
+```swift
+let url = URL(string: "https://fakerestapi.azurewebsites.net/api/Books")!
+ 
+let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+    guard let data = data else { return }
+        if let books: [BookResponse] = DecodeJSON.shared.decode(data: data) {
+            print(books)
+        }
+    }
+ 
+task.resume()
+ 
+```
+
 ## Author
 
 jmhdevep, jmherrero@jmhdeveloper.com
