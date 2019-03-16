@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DecodeJSON_Example' do
+  pod 'DecodeJSON', :path => '../'
+
+  target 'DecodeJSON_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
