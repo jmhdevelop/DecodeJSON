@@ -10,12 +10,13 @@ Pod::Spec.new do |s|
   s.name             = 'DecodeJSON'
   s.version          = '0.1.0'
   s.summary          = 'Simple way to decode a JSON'
-  s.homepage         = 'https://github.com/jmhdevep/DecodeJSON'
+  s.homepage         = 'https://github.com/jmhdevelop/DecodeJSON'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jmhdevep' => 'jmherrero@jmhdeveloper.com' }
   s.source           = { :git => 'https://github.com/jmhdevep/DecodeJSON.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.3'
+  s.swift_version = '4.2'
 
   s.source_files = 'DecodeJSON/Classes/**/*'
   
