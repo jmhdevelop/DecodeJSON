@@ -51,7 +51,7 @@ struct BookResponse: Codable {
 ```
 
 
-To decode a JSON in a request you need can do it like in this example.
+To decode a JSON in a request you can do it like in this example.
 
 ```swift
 let url = URL(string: "https://fakerestapi.azurewebsites.net/api/Books")!
