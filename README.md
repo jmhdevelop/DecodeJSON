@@ -61,8 +61,8 @@ let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
     guard let data = data else { return }
         if let books: [BookResponse] = DecodeJSON.shared.decode(data: data) {
             print(books)
-        }
     }
+}
  
 task.resume()
  
