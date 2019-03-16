@@ -25,7 +25,8 @@ public class DecodeJSON {
             
         } catch let error {
             print("[Decode JSON] " + error.localizedDescription)
-            print("[Decode JSON] Reviewed all the keys are set correctly. For more info go to https://github.com/jmhdevelop/DecodeJSON")
+            print("[Decode JSON] Reviewed all the keys are set correctly.")
+            print("[Decode JSON] For more info go to https://github.com/jmhdevelop/DecodeJSON/blob/master/README.md#usage")
             
             return nil
         }
