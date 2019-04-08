@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04528AF00298253F6C816EFDF439858C /* Pods_DecodeJSON_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecodeJSON_Example.framework; path = "Pods-DecodeJSON_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04528AF00298253F6C816EFDF439858C /* Pods_DecodeJSON_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecodeJSON_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B38893BFCC20A4CE69FF8BA8C411343 /* Pods-DecodeJSON_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecodeJSON_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16A7495BE05D83CBDA6223CF42141BCD /* Pods-DecodeJSON_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecodeJSON_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1C269E467ECCAECC0E7FA7A3B690BD50 /* Pods-DecodeJSON_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecodeJSON_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -34,13 +34,13 @@
 		3A02C0750A8B2C73B8179DA9E807B90C /* Pods-DecodeJSON_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecodeJSON_Example-resources.sh"; sourceTree = "<group>"; };
 		41AF8229BF8EF853404ABAD9345B807C /* Pods-DecodeJSON_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecodeJSON_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		461602029F375715716F0E37D756C9D9 /* Pods-DecodeJSON_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecodeJSON_Tests-resources.sh"; sourceTree = "<group>"; };
-		5B4E92A5BBEFC9CA21559D6AD08CBA34 /* Pods_DecodeJSON_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecodeJSON_Tests.framework; path = "Pods-DecodeJSON_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4E92A5BBEFC9CA21559D6AD08CBA34 /* Pods_DecodeJSON_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecodeJSON_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB533F8E6727F8C5AEA81A30285C37 /* Pods-DecodeJSON_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecodeJSON_Example.modulemap"; sourceTree = "<group>"; };
 		8837E334EABF7C0BBF0385B3DD0EA3A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A7A49F0CA5348B65069F72870EC091B /* Pods-DecodeJSON_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecodeJSON_Example-dummy.m"; sourceTree = "<group>"; };
 		8C9ADACEB4BBF01E280C8F06EB8864EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92062B9A4BEB084CC8EA7F9D4F16FC21 /* Pods-DecodeJSON_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecodeJSON_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		964CEBDDE06A36A697A76FEAE551BB90 /* Pods-DecodeJSON_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecodeJSON_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9F1520D022FCBD8418C301D51568C54A /* Pods-DecodeJSON_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecodeJSON_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABF59AF74EDEBECBFAC8AB27F67864D7 /* Pods-DecodeJSON_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecodeJSON_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -225,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -379,7 +380,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -439,9 +440,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
