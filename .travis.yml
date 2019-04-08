@@ -1,6 +1,6 @@
 references:
 language: objective-c
-osx_image: xcode10
+osx_image: xcode10.2
 #xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone x
 
 cache: cocoapods
