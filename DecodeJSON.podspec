@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DecodeJSON'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Simple way to decode a JSON'
   s.homepage         = 'https://github.com/jmhdevelop/DecodeJSON'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
