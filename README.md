@@ -42,7 +42,7 @@ struct BookResponse: Codable {
     let description: String
     let numberOfPages: Int
 
-    enum CodingKeys : String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case id = "ID"
         case title = "Title"
         case description = "Description"
